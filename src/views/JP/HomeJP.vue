@@ -1,7 +1,8 @@
 <template>
-	<h1>ホーム</h1>
+	<h1>シチリア　イタリア</h1>
+	<Imgslides></Imgslides>
 </template>
 
-<script lang="ts">
+<script lang="ts" src="@/scripts/homeJP.ts">
 
 </script>
