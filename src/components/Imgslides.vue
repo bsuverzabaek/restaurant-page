@@ -82,6 +82,6 @@
 
 <style>
 	img{
-		height: 550px;
+		height: 500px;
 	}
 </style>
