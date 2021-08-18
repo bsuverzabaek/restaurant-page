@@ -74,10 +74,6 @@
 			</div>
 		</div>
 	</nav>
-
-	<div class=".d-none">
-		{{ navSwitch }}
-	</div>
 </template>
 
 <script lang="ts" src="../scripts/nav.ts">
