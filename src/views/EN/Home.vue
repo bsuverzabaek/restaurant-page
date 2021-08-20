@@ -20,6 +20,62 @@
 			</p>
 		</div>
 	</section>
+
+	<section id="location">
+		<div class="text-center">
+			<div 
+				class="fs-2 text-decoration-underline"
+			>
+				Location
+			</div>
+			<div>
+				1111 W. Blahblah Way
+			</div>
+			<div class=mb-3>Metroville, XX 0000</div>
+		</div>
+	</section>
+
+	<section id="storeHours">
+		<div class="text-center">
+			<div class="fs-2 text-decoration-underline">
+					Store Hours
+			</div>
+			<ul class="list-inline">
+				<li class="list-inline-item">Monday</li>
+				<li class="list-inline-item">12PM - 10PM</li>
+			</ul>
+			<ul class="list-inline">
+				<li class="list-inline-item">Tuesday</li>
+				<li class="list-inline-item">12PM - 10PM</li>
+			</ul>
+			<ul class="list-inline">
+				<li class="list-inline-item">Wednesday</li>
+				<li class="list-inline-item">12PM - 10PM</li>
+			</ul>
+			<ul class="list-inline">
+				<li class="list-inline-item">Thursday</li>
+				<li class="list-inline-item">12PM - 10PM</li>
+			</ul>
+			<ul class="list-inline">
+				<li class="list-inline-item">Friday</li>
+				<li class="list-inline-item">12PM - 10PM</li>
+			</ul>
+			<ul class="list-inline">
+				<li class="list-inline-item">Saturday</li>
+				<li class="list-inline-item">12PM - 11PM</li>
+			</ul>
+			<ul class="list-inline">
+				<li class="list-inline-item me-5">Sunday</li>
+				<li class="list-inline-item">Closed</li>
+			</ul>
+
+
+
+			<p><span>Mon - Fri</span><span class="ms-2">12PM - 10PM</span></p>
+			<p>Sat.<span class="ms-5">12PM - 11PM</span></p>
+			<p><span class="me-4">Sun.</span><span class="ms-5">Closed</span></p>
+		</div>
+	</section>
 </template>
 
 <script lang="ts" src="@/scripts/home.ts">
