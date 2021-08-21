@@ -57,7 +57,7 @@
 			              	data-bs-toggle="dropdown" 
 			              	aria-expanded="false"
 			            >
-			              	{{ jpSwitch ? '言語' : 'Languages' }}
+			              	{{ jpSwitch ? '言語' : 'Language' }}
 			            </a>
 			            <ul class="dropdown-menu" aria-labelledby="navDropDown">
 			            	<li>	
