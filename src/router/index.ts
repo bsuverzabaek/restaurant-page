@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '../views/EN/Home.vue'
+import Home from '@/views/Home.vue'
 
 const routes = [
   {
@@ -8,49 +8,24 @@ const routes = [
     component: Home
   },
   {
-    path: '/JP',
-    name: 'HomeJP',
-    component: () => import('../views/JP/HomeJP.vue')
-  },
-  {
     path: '/specialties',
     name: 'Specialties',
-    component: () => import('../views/EN/Specialties.vue')
-  },
-  {
-    path: '/specialtiesJP',
-    name: 'SpecialtiesJP',
-    component: () => import('../views/JP/SpecialtiesJP.vue')
+    component: () => import('@/views/Specialties.vue')
   },
   {
     path: '/menu',
     name: 'Menu',
-    component: () => import('../views/EN/Menu.vue')
-  },
-  {
-    path: '/menuJP',
-    name: 'MenuJP',
-    component: () => import('../views/JP/MenuJP.vue')
+    component: () => import('@/views/Menu.vue')
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import('../views/EN/Contact.vue')
-  },
-  {
-    path: '/contactJP',
-    name: 'ContactJP',
-    component: () => import('../views/JP/ContactJP.vue')
+    component: () => import('@/views/Contact.vue')
   },
   {
     path: '/jobs',
     name: 'Jobs',
-    component: () => import('../views/EN/Jobs.vue')
-  },
-  {
-    path: '/jobsJP',
-    name: 'JobsJP',
-    component: () => import('../views/JP/JobsJP.vue')
+    component: () => import('@/views/Jobs.vue')
   }
 ]
 

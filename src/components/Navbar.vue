@@ -19,34 +19,34 @@
 			    <!--span class="navbar-brand">Sicily Italy</span-->
 			    <div class="navbar-nav">
 			        <router-link 
-			        	:to="jpSwitch ? '/JP' : '/'" 
+			        	to="/" 
 			            class="nav-link active"
 			        >
-			        	{{ jpSwitch ? 'ホーム' : 'Home' }}
+			        	{{ jSwitch ? 'ホーム' : 'Home' }}
 			        </router-link>
 			        <router-link 
-			            :to="jpSwitch ? '/specialtiesJP' : '/specialties'" 
+			            to="/specialties" 
 			            class="nav-link active"
 			        >
-			            {{ jpSwitch ? 'こだわり' : 'Specialties' }}
+			            {{ jSwitch ? 'こだわり' : 'Specialties' }}
 			        </router-link>
 			        <router-link 
-			            :to="jpSwitch ? '/menuJP' : '/menu'" 
+			            to="/menu" 
 			            class="nav-link active"
 			        >
-			            {{ jpSwitch ? 'メニュー' : 'Menu' }}
+			            {{ jSwitch ? 'メニュー' : 'Menu' }}
 			        </router-link>
 			        <router-link 
-			            :to="jpSwitch ? '/contactJP' : '/contact'" 
+			            to="/contact" 
 			            class="nav-link active"
 			        >
-			            {{ jpSwitch ? 'お問い合わせ' : 'Contact' }}
+			            {{ jSwitch ? 'お問い合わせ' : 'Contact' }}
 			        </router-link>
 			        <router-link 
-			            :to="jpSwitch ? '/jobsJP' : '/jobs'" 
+			            to="/jobs" 
 			            class="nav-link active"
 			        >
-			            {{ jpSwitch ? '採用情報' : 'Jobs' }}
+			            {{ jSwitch ? '採用情報' : 'Jobs' }}
 			        </router-link>
 			        <div class="nav-item dropdown">
 			        	<a 
@@ -57,15 +57,16 @@
 			              	data-bs-toggle="dropdown" 
 			              	aria-expanded="false"
 			            >
-			              	{{ jpSwitch ? '言語' : 'Language' }}
+			              	{{ jSwitch ? '言語' : 'Language' }}
 			            </a>
 			            <ul class="dropdown-menu" aria-labelledby="navDropDown">
 			            	<li>	
 			                	<router-link
-			                  		:to="jpSwitch ? '/' : '/JP'"
+			                  		to="/"
 			                  		class="dropdown-item"
+			                  		@click="changeLang()"
 			                	>
-			                		{{ jpSwitch ? 'English' : '日本語' }}
+			                		{{ jSwitch ? 'English' : '日本語' }}
 			                	</router-link>
 			              	</li>
 			            </ul>
