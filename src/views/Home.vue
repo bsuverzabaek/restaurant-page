@@ -29,9 +29,9 @@
 				{{ jSwitch ? '住所' : 'Location' }}
 			</div>
 			<div>
-				1111 W. Blahblah Way
+				{{ location(jSwitch) }}
 			</div>
-			<div class=mb-3>Metroville, XX 0000</div>
+			<div class=mb-3>{{ location2(jSwitch) }}</div>
 		</div>
 	</section>
 
